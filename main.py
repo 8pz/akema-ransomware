@@ -2,7 +2,7 @@ import os, string, ctypes, base64, sys, winreg, ctypes
 from cryptography.fernet import Fernet
 from threading import Thread
 
-image = '' #base64 image
+image = '' #base64 image for desktop background
 
 if __name__ == '__main__':
     try:

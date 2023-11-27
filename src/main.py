@@ -1,4 +1,4 @@
-import os, string, ctypes, base64, sys, winreg, ctypes
+import os, string, ctypes, base64, winreg, ctypes
 from cryptography.fernet import Fernet
 from threading import Thread
 
